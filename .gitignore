@@ -1,0 +1,8 @@
+/bin/
+;; file of .gitignore
+.classpath
+.buildpath
+.project
+.settings/
+cache/
+logs/
