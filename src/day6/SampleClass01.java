@@ -2,11 +2,11 @@ package day6;
 
 public class SampleClass01 {
 
-	//フィールド
+	//フィールド(データ)
 	int n = 10;
 	String s = "field";
 
-	//メソッド
+	//メソッド(操作)
 	int add(int a,int b) {
 		return a + b;
 	}
