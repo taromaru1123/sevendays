@@ -1,10 +1,7 @@
 package day7;
 
 public class SampleClass02 {
-	//コンストラクタ
-	public SampleClass02() {
-		System.out.println("コンストラクタ");
-	}
+
 	//privateメソッド
 	private void method1() {
 		System.out.println("method1(private)");
@@ -21,4 +18,12 @@ public class SampleClass02 {
 	}
 	//privateフィールド
 	private int num = 1;
+
+	//コンストラクタ
+		public SampleClass02() {
+			System.out.println("コンストラクタ");
+		}
+		/*コンストラクタの使い道とか
+		 *価が最初から決まっていて、変える必要がない時に使ったり
+		 */
 }
