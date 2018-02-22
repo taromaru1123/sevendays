@@ -8,6 +8,8 @@ public class SampleEx01 {
         //  インスタンスを生成する
         s1 = new SampleClassEx01(50);   //  コンストラクタ①を呼び出す
         s2 = new SampleClassEx01();     //  コンストラクタ②を呼び出す
+
+        System.out.println(s2);
         //  値を取得して表示する
         System.out.println(s1.getValue());
         System.out.println(s2.getValue());
