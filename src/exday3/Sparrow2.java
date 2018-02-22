@@ -42,7 +42,7 @@ class Botan
 	 for(int i = 0;i < BUTTON_MAX;i++) {
 		 takasa = LAYOUT[i][0];
 		 haba = LAYOUT[i][1];
-		 Botan d = new Botan(LAYOUT[i][0],LAYOUT[i][1]);
+		 kokoBotan d = new Botan(LAYOUT[i][0],LAYOUT[i][1]);
 		 button[i] = d;
 	 }
 
